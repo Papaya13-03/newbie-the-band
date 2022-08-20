@@ -1,0 +1,116 @@
+/* On PC */
+@media only screen and (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+
+/* On Tablet */
+@media only screen and (max-width: 1023px) and (min-width: 740px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    #band,
+    #tour {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #content #contact .contact-wrap {
+        width: 80%;
+    }
+    .modal .wrap {
+        width: 80%;
+    }
+}
+
+/* On Mobile */
+@media only screen and (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .mobile-nav-headder {
+        height: 100%;
+    }
+    .mobile-nav-headder #mobile-home {
+        height: 46px;
+        text-decoration: none;
+        color: #fff;
+        line-height: 46px;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding-left: 20px;
+        margin: 0;
+    }
+    .mobile-open-nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        font-size: 20px;
+        height: 46px;
+        width: 46px;
+        text-align: center;
+        line-height: 46px;
+    }
+    .mobile-nav-select {
+        width: 100%;
+        position: absolute;
+    }
+    .mobile-nav-select a{
+        display: block;
+        width: 100%;
+        background-color: #000;
+        height: 46px;
+        text-decoration: none;
+        color: #fff;
+        line-height: 46px;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding-left: 20px;
+        border: none;
+        margin: 0;
+    }
+    #band,
+    #tour {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .member-list {
+        flex-wrap: wrap;
+    }
+    .member {
+        margin-top: 28px;
+        width: 60%;
+    }
+    .member img{
+        margin-top: 8px;
+    }
+    .buy-ticket-boxes {
+        flex-wrap: wrap;
+    }
+    .buy-ticket-boxes .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .modal .wrap {
+        width: 90%;
+    }
+    #content #contact .contact-wrap {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .form {
+        margin-top: 12px;
+    }
+    .two-col.mobile-one-col {
+        margin-top: 10px;
+    }
+    .mobile-one-col {
+        width: 100%;
+    }
+    .form .mobile-one-col {
+        width: 100%;
+    }
+}

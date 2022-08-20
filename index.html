@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Band</title>
+</head>
+
+<body>
+    <div class="main">
+        <!-- Begin header -->
+        <div class="header">
+            <div class="nav-header hide-on-mobile">
+                <a class="nav-button" href="#slider">Home</a>
+                <a class="nav-button" href="#band">Band</a>
+                <a class="nav-button" href="#tour">Tour</a>
+                <a class="nav-button" href="#contact">Contact</a>
+                <a class="nav-button more">
+                    More
+                    <i class="fa-solid fa-caret-down"></i>
+                    <ul class="more-details">
+                        <li class="detail">Merchandise</li>
+                        <li class="detail">Extras</li>
+                        <li class="detail">Media</li>
+                    </ul>
+                </a>
+            </div>
+
+            <div class="search-box hide-on-mobile">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="mobile-nav-headder hide-on-pc hide-on-tablet">
+                <a href="#slider" id="mobile-home">Home</a>
+                <div class="mobile-open-nav">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="mobile-nav-select hide-on-mobile">
+                    <a href="#band" id="mobile-band">Band</a>
+                    <a href="#tour" id="mobile-tour">Tour</a>
+                    <a href="#contact" id="mobile-contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <!-- End header -->
+
+        <!-- Begin Slider -->
+        <div id="slider">
+            <img class="default-img" src="images/4.jpg" alt="">
+            <div class="box">
+                <img src="images/1.jpg" alt="">
+                <div class="text-content hide-on-mobile">
+                    <h2>Los Angeles</h2>
+                    <p>We had the best time playing at Venice Beach!</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/2.jpg" alt="">
+                <div class="text-content hide-on-mobile">
+                    <h2>New York</h2>
+                    <p>The atmosphere in New York is lorem ipsum.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/3.jpg" alt="">
+                <div class="text-content hide-on-mobile">
+                    <h2>Chicago</h2>
+                    <p>Thank you, Chicago - A night we won't forget.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Slider -->
+
+        <div id="content">
+            <div id="band">
+                <h2 class="content-header">
+                    The Band
+                </h2>
+
+                <p class="small-text">
+                    We love music
+                </p>
+
+                <p class="para">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <div class="member-list">
+                    <div class="member">
+                        <div>Name</div>
+                        <img src="images\bandmember.jpg" alt="">
+                    </div>
+                    <div class="member">
+                        <div>Name</div>
+                        <img src="images\bandmember.jpg" alt="">
+                    </div>
+                    <div class="member">
+                        <div>Name</div>
+                        <img src="images\bandmember.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="tour">
+                <h2 class="content-header">
+                    Tour date
+                </h2>
+
+                <p class="small-text">
+                    Remember to book your tickets!
+                </p>
+
+                <div class="ticket-of-month">
+                    <div class="month">
+                        September
+                        <div class="sold-out">Sold out</div>
+                    </div>
+
+                    <div class="month">
+                        October
+                        <div class="sold-out">Sold out</div>
+                    </div>
+
+                    <div class="month">
+                        November
+                        <div class="number-of-tickets">3</div>
+                    </div>
+                </div>
+
+                <div class="buy-ticket-boxes">
+                    <div class="box">
+                        <img src="images\newyork.jpg" alt="">
+                        <div class="content">
+                            <div class="location">new york</div>
+                            <div class="date">Fri 27 Nov 2016</div>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button>Buy Tickets</button>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images\paris.jpg" alt="">
+                        <div class="content">
+                            <div class="location">Paris</div>
+                            <div class="date">Sat 28 Nov 2016</div>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button>Buy Tickets</button>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images\sanfran.jpg" alt="">
+                        <div class="content">
+                            <div class="location">San Francisco</div>
+                            <div class="date">Sun 29 Nov 2016</div>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button>Buy Tickets</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal">
+                    <div class="wrap">
+                        <div class="modal-header">
+                            <i class="bag-icon fa-solid fa-briefcase"></i>
+                            Tickets
+                            <i class="close-icon fa-solid fa-xmark"></i>
+                        </div>
+
+                        <div class="modal-content">
+                            <div class="modal-input">
+                                <div class="modal-input-title">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Tickets, $15 per person
+                                </div>
+                                <input type="text" name="" id="" placeholder="How many?" required>
+                            </div>
+
+                            <div class="modal-input">
+                                <div class="modal-input-title">
+                                    <i class="fa-solid fa-user-large"></i>
+                                    Send to
+                                </div>
+                                <input type="text" name="" id="" placeholder="How many?" required>
+                            </div>
+
+                            <button class="modal-pay-button">
+                                pay
+                                <i class="fa-solid fa-check"></i>
+                            </button>
+                        </div>
+
+                        <div class="modal-footer">
+                            Need <a href="">help?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact">
+                <h2 class="content-header">
+                    CONTACT
+                </h2>
+
+                <p class="small-text">
+                    Fan? Drop a note!
+                </p>
+                <div class="contact-wrap">
+                    <div class="two-col mobile-one-col">
+                        <div class="detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Chicago, US
+                        </div>
+                        <div class="detail">
+                            <i class="fa-solid fa-phone"></i>
+                            Phone: +00 151515
+                        </div>
+                        <div class="detail">
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: mail@mail.com
+                        </div>
+                    </div>
+
+                    <div class="two-col mobile-one-col form">
+                        <input type="text" class="two-col mobile-one-col" placeholder="Name">
+                        <input type="text" class="two-col mobile-one-col" placeholder="Email">
+                        <input type="text" class="one-col mobile-one-col" placeholder="Message">
+                        <button class="send-btn">
+                            Send
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <img src="images\map.jpg" alt="">
+        </div>
+        <div id="footer">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <br>
+            Powered by 
+            <a href="https://www.facebook.com/Papaya1303/">author</a>
+        </div>
+    </div>
+    <script src="node.js"></script>
+</body>
+
+</html>
